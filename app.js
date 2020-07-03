@@ -6,9 +6,9 @@ const port = process.env.PORT || 3000;
 paypal.configure({
   mode: 'sandbox', // sandbox or live
   client_id:
-    'AVPShnkLjAwnWjiswxTY-ljCL3ULMaKX3y8zBbTakl6maoOf0O3lpCTSM7JHDfnpXvWT0osfElRGghFS',
+    'YOUR_CLIENT_ID',
   client_secret:
-    'EEakAyf3VsKxnEY7_nZIsqV16kE028kIBMewpq2Pq94R2bGWCs6syu725habPJMWa1OB552qP3u7dU9A',
+    'YOUR_CLIENT_SECRET',
 });
 
 const app = express();
